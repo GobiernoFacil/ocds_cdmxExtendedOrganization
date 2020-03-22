@@ -1,0 +1,17 @@
+{
+  "name": {
+    "en": "CDMX Extended Organization"
+  },
+  "description": {
+    "en": "add value information related to the Mexico City Contracting Process (Organization)"
+  },
+  "compatibility": [
+    "1.1"
+  ],
+  "documentationUrl": {
+    "en": "https://github.com/GobiernoFacil/ocds_cdmxExtendedOrganization_extension"
+  },
+  "schemas": [
+    "release-schema.json"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "definitions" : {
+    "Organization" : {
+      "properties" : {
+        
+        "fiscalEntity" : {
+          "title" : "Fiscal Entity",
+          "description" : "Fiscal Entity from the invited providers",
+          "type" : ["string", "null"]
+        },
+        "isNational" : {
+          "title" : "Is National",
+          "description" : "Boolean value that indicate if the organization is foreign or local",
+          "type" : ["boolean", "null"]
+        },
+        "nationality" : {
+          "title" : "Nationality",
+          "description" : "The country of the organization",
+          "type" : ["string", "null"]
+        },
+        "applicant" : {
+          "title" : "Applicant",
+          "description" : "information of the official responsible for the procedure",
+          "$ref" : "#/definitions/ContactPoint"
+        },
+      }
+    },
+
+    "ContactPoint" : {
+      "properties" : {
+        "position" : {
+          "title" : "Position",
+          "description" : "Position of the official responsible for the procedure",
+          "type" : ["string", "null"]
+        }
+      }
+    }
+  }
+}
