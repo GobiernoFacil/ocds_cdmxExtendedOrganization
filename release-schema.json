@@ -22,7 +22,7 @@
           "title" : "Applicant",
           "description" : "information of the official responsible for the procedure",
           "$ref" : "#/definitions/ContactPoint"
-        },
+        }
       }
     },
 
