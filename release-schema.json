@@ -13,11 +13,6 @@
           "description" : "Boolean value that indicate if the organization is foreign or local",
           "type" : ["boolean", "null"]
         },
-        "nationality" : {
-          "title" : "Nationality",
-          "description" : "The country of the organization",
-          "type" : ["string", "null"]
-        },
         "applicant" : {
           "title" : "Applicant",
           "description" : "information of the official responsible for the procedure",
